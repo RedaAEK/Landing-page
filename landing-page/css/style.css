@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    padding-left: 10rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.leaf-logo {
+    margin-top: 1rem;
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    border-radius: 0 50% 0 50%;
+    transform: rotate(45deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.links {
+    align-content: center;
+    padding-left: 40rem;
+}
+a {
+    color: white;
+    font-size: 18px;
+    margin-left: 1rem;
+    text-decoration: none;
+
+}
+a:hover {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 10%;
+}
+
+.desc span {
+    display: block;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.sign {
+    background-color: #3882F6;
+    width: 6.5rem;
+    font-weight: bold;
+    height: 2rem;
+    color: #E5E7EB;
+    border: 2px solid #3882F6;
+    border-radius: 0.6rem;
+}
+
+button:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+    border: 2px solid red;
+    background-color: red;
+}
+
+.desc {
+    width: 100%;
+    font-size: 18px;
+}
+
+.two {
+    border: 2px solid black;
+    width: 500px;
+    object-fit: cover;
+    height: 200px;
+}
+
+.intro {
+    max-width: 550px;
+}
+
+/* this is the last of the header */
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+}
+
+.container .one {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card {
+    width: 170px;
+
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    border-radius: 8px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.section {
+    padding: 6rem 14rem;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.container-two {
+    display: flex;
+    gap: 10rem;
+    margin: 5rem 12rem;
+    padding: 2rem 8rem;
+    background-color: #3882F6;
+    border-radius: 1rem;
+    color: white;
+}
+
+.container-two span {
+    display: block;
+}
+
+.container-two button {
+    width: 6.5rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
